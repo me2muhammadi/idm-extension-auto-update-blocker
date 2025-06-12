@@ -39,7 +39,7 @@ Steps:
 
 1. Extract all files in this archive to a folder (e.g. `C:\idm_patch`).
 2. Right-click on either `idm_patch_edge.ps1` (for Edge) or `idm_patch_chrome.ps1` (for Chrome) and select "Run with PowerShell".  
-   - *If you get a security policy error, open PowerShell as administrator, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and then run the script again.*
+   - *If you get a security policy error, open PowerShell as administrator, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and then run the script through the same powershell session.*
 3. Follow the on-screen instructions:
    - The script will unpack and prepare the extension.
    - You will be asked to open your browser’s extensions page:
